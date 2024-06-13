@@ -1,0 +1,44 @@
+html {
+  font-family: Arial;
+  background: lightslategray;
+}
+
+body {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  color: darkblue;
+}
+
+h1 {
+  text-align: center;
+  filter: drop-shadow(2px 2px 1px black);
+}
+
+h2 {
+  margin: 4rem auto 1rem auto;
+  text-align: center;
+  color: rgb(19, 19, 70);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 2px 1px rgba(41, 124, 163, 0.404);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.banner-div {
+  font-weight: bold;
+}
