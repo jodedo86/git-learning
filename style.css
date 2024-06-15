@@ -1,8 +1,10 @@
+/* This is the html selector that applies to the main font and page color*/
 html {
   font-family: Arial;
   background: lightslategray;
 }
 
+/* This is the body selector that applies to the margin layout and text color*/
 body {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -11,6 +13,7 @@ body {
   color: darkblue;
 }
 
+/* This is the h1 selector that applies to title*/
 h1 {
   text-align: center;
   filter: drop-shadow(2px 2px 1px black);
@@ -26,12 +29,13 @@ a {
   text-decoration: none;
 }
 
+/* This is the img selector that gives style to the images on the page*/
 img {
-  margin: 1rem;
-  border-radius: 1rem;
+  border-radius: 8rem;
   box-shadow: 2px 2px 2px 1px rgba(41, 124, 163, 0.404);
 }
 
+/* This is the center class that applies to main image and centers it on the page*/
 .center {
   display: block;
   margin-left: auto;
@@ -39,6 +43,35 @@ img {
   width: 50%;
 }
 
-.banner-div {
+.form-spacing {
+  margin-block: 5px;
+}
+
+/* This is the form-flex class that centers div class containing the links to the other pages*/
+.form-flex {
+  display: flex;
+  margin-inline: auto;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+div {
+  font-size: x-large;
+  text-align: center;
+}
+
+p {
+  font-size: larger;
   font-weight: bold;
+  text-align: center;
+}
+
+/* This is the no-bullets class that removes the bullets from the ul, centers the ul and gives the ul its font and font size*/
+.no-bullets {
+  list-style-type: none;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+  font-size: x-large;
+  font-family: Arial;
 }
